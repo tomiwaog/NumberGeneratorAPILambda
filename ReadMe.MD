@@ -4,6 +4,8 @@
 Generates a number with prefix. i.e. ABC123 and increments the number whenever the GET request is sent to the API.
 Use AWS API Gateway as the Gateway handler/handler.
 
+Expected Get Query Params = "deptName"=general
+http://x.....com/resource?deptName=general
 ## Typical Usage:
 - Ticketing system
 - HelpDesk
