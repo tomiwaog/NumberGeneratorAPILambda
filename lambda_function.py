@@ -9,8 +9,6 @@ def lambda_handler(event, context):
         result = generateTicket(userDeptRequest)
         resJson['Name'] = result[0]
         resJson['UsecaseID'] = result[1] + str(result[2])
-    
-    # resJson['department'] = "HR"
 
     responseObject = {}
     responseObject['statusCode'] = 200
