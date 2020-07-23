@@ -5,14 +5,14 @@ Generates a number with prefix. i.e. ABC123 and increments the number whenever t
 Use AWS API Gateway as the Gateway handler/handler.
 
 ## Typical Usage:
-Ticketing system
-HelpDesk
-Shopping Cart ...
+- Ticketing system
+- HelpDesk
+- Shopping Cart ...
 
 ## Technology:
-AWS Lambda
-AWS API Gatewat
-Python
+* AWS Lambda
+* AWS API Gatewat
+* Python
 
 ## Expected Output
 Screenshot:
